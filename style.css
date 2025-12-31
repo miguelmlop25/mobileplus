@@ -217,3 +217,123 @@
   text-decoration: solid;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial;
 }
+
+
+/*Tarjetas para los productos*/
+.titulo-categoria {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  font-size: 2.2rem;
+  margin: 40px 0 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contenedor-catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tarjeta-producto {
+  width: 280px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-producto:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.imagen-tarjeta {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.imagen-tarjeta img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-producto:hover .imagen-tarjeta img {
+  transform: scale(1.1);
+}
+
+.info-tarjeta {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.info-tarjeta h3 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.2rem;
+  color: #1b1515;
+  margin-bottom: 5px;
+}
+
+.precio-accion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.precio {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1b1515;
+}
+
+.btn-comprar {
+  background-color: #FBC124;
+  color: #1b1515;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+  background-color: #e0a800;
+  color: white;
+}
+
+.caracteristicas {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.caracteristicas li {
+  font-size: 1rem;
+  color: #666;
+}
+
+.caracteristicas li::before {
+  content: "✓";
+  color: #0071e3;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
