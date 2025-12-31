@@ -32,3 +32,27 @@
     transform: translateX(-50%);
   }
 }
+
+/* --- Estilos para la sección del Slogan --- */
+.slogan-section {
+  background-color: #1b1515;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.slogan-section h1 {
+  color: #FBC124;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.slogan-section h2 {
+  color: wheat;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
