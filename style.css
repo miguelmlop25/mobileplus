@@ -36,7 +36,7 @@
 /* Estilos para la sección del Slogan */
 .slogan-section {
   background-color: #1b1515;
-  padding: 40px 20px;
+  padding: 10px 10px;
   text-align: center;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
@@ -77,4 +77,20 @@
 
 .barra-navegacion a:hover{
   color: white;
+}
+
+/* Contenedor fijo con sticky */
+.contenedor-fijo {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+
+
+p {
+  display: flex;
+  justify-content: center;
+  padding: 700px;
 }
