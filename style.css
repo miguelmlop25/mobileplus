@@ -333,7 +333,7 @@
 
 .caracteristicas li::before {
   content: "✓";
-  color: #0071e3;
+  color: #FBC124;
   margin-right: 0.5rem;
   font-weight: bold;
 }
