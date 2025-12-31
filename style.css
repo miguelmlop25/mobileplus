@@ -33,7 +33,7 @@
   }
 }
 
-/* --- Estilos para la sección del Slogan --- */
+/* Estilos para la sección del Slogan */
 .slogan-section {
   background-color: #1b1515;
   padding: 40px 20px;
@@ -45,14 +45,36 @@
   color: #FBC124;
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase;
+  margin-bottom: 8px;
   letter-spacing: 1px;
 }
 
 .slogan-section h2 {
-  color: wheat;
+  color: white;
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.5;
+}
+
+/* Barra de navegación */
+.barra-navegacion {
+  display: flex;
+  background-color: black;
+  list-style: none;
+  gap: 100px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.barra-navegacion a {
+  text-decoration: none;
+  color: #FBC124;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.barra-navegacion a:hover{
+  color: white;
 }
