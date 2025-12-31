@@ -104,13 +104,13 @@
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .producto:hover {
   transform: scale(1.02);
   z-index: 2;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .p1 {
@@ -209,7 +209,7 @@
   background-image: url("https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-lineup-240909_big.jpg.large.jpg");
 }
 
-.grid{
+.grid {
   text-align: center;
   color: #e08610;
   padding: 5px;
@@ -245,7 +245,7 @@
   background-color: white;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -253,7 +253,7 @@
 
 .tarjeta-producto:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .imagen-tarjeta {
@@ -336,4 +336,40 @@
   color: #FBC124;
   margin-right: 0.5rem;
   font-weight: bold;
+}
+
+
+/* Presentacion beneficios*/
+.presentacion h2 {
+  background-color: #000000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  color: #FBC124;
+}
+.presentacion h3 {
+  background-color: #000000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  color: #FBC124;
+}
+
+.presentacion-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: #FBC124;
+}
+
+.presentacion-item {
+  background-color: #060606;
+  padding: 0px;
+  text-align: center;
+  border-radius: 0px;
+  width: 160px;
+  height: 75px;
 }
