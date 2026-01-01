@@ -347,6 +347,7 @@
   padding: 20px;
   color: #FBC124;
 }
+
 .presentacion h3 {
   background-color: #000000;
   text-align: center;
@@ -372,4 +373,175 @@
   border-radius: 0px;
   width: 160px;
   height: 75px;
+}
+
+
+/*Marcas disponibles*/
+.marcas-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+  padding: 40px;
+}
+
+.marcas-card {
+  background-color: #000000;
+  width: 200px;
+  padding: 60px 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.marcas-foto {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 2px solid #FBC124;
+  position: absolute;
+  top: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.marcas-card h3 {
+  margin-top: 95px;
+  color: #FBC124;
+  font-size: 25px;
+}
+
+.marca h2 {
+  background-color: #000000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 35px;
+  color: #FBC124;
+}
+
+/* Estilos del contenido del footer */
+.final {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  background-color: black;
+  padding: 20px;
+}
+
+.final-footer {
+
+  background-color: black;
+  color: #FBC124;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 300px;
+  height: 430px;
+}
+
+.final-footer h3{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:large;
+  margin: 10px;
+}
+
+.mail{
+  text-align: left;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.final-footer p{
+  text-align: justify;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.acerca-de h1 {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  margin: 10px;
+}
+.acerca-de h2{
+  text-align: justify;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+.acerca-de h3{
+  color: #000000;
+}
+
+.product h1 {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  margin: 10px;
+}
+.product h2{
+  text-align: justify;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+.product h3{
+  color: #000000;
+}
+
+.politicas h1 {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  margin: 10px;
+}
+.politicas h2{
+  text-align: justify;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+.politicas h3{
+  color: #000000;
+}
+
+.medios-contacto h1 {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:larger;
+  margin: 10px;
+}
+.medios-contacto h3{
+  color: #000000;
+}
+
+.iconos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.copyright{
+  background-color: black;
+  padding: 10px;
+
+}
+.copyright h1{
+  background-color: #000000;
+  color: #FBC124;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
 }
